@@ -30,4 +30,8 @@ fn main() {
     println!("`numbers`: {:?}", numbers);
 
     println!("`&numbers[4..]`: {:?}", &numbers[4..]);
+
+    let fib = "Fibonacci";
+
+    println!("`fib`: {:?}", fib);
 }
