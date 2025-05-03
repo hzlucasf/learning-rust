@@ -1,3 +1,5 @@
+static PROGRAMMING_LANGUAGE: &str = "Rust";
+
 fn main() {
     let programming_language = "Rust"; // &str
 
@@ -34,4 +36,6 @@ fn main() {
     let fib = "Fibonacci";
 
     println!("`fib`: {:?}", fib);
+
+    println!("`PROGRAMMING_LANGUAGE`: {:?}", PROGRAMMING_LANGUAGE);
 }
